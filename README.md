@@ -37,16 +37,21 @@ Hive has comparatively less lines of code when compared to Apache Pig.
 5. Explain the scalar data types in pig:
 
 
-int	Signed 32-bit integer	10
-long	Signed 64-bit integer	Data:     10L or 10l
-Display: 10L
-float	32-bit floating point	Data:     10.5F or 10.5f or 10.5e2f or 10.5E2F
-Display: 10.5F or 1050.0F
-double	64-bit floating point	Data:     10.5 or 10.5e2 or 10.5E2
-Display: 10.5 or 1050.0
-chararray	Character array (string) in Unicode UTF-8 format	hello world
-bytearray	Byte array (blob)	
-boolean	boolean	true/false (case insensitive)
+int	-  Signed 32-bit integer	                                                  10
+
+long -	Signed 64-bit integer	                                        Data:     10L or 10l
+                                                                      Display:  10L
+                                                
+float -	32-bit floating point	                                        Data:     10.5F or 10.5f or 10.5e2f or 10.5E2F
+                                                                      Display:  10.5F or 1050.0F
+                                                
+double - 64-bit floating point	                                      Data:     10.5 or 10.5e2 or 10.5E2
+                                                                      Display:  10.5 or 1050.0
+                                                                      
+chararray - Character array (string) in Unicode  UTF-8 format	        hello world
+
+bytearray -	Byte array                                                (blob)	
+boolean -	  boolean	                                                   true/false (case insensitive)
 
 
 
